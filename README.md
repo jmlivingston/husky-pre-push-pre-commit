@@ -17,3 +17,7 @@ This is a very simple test for husky pre-commit and pre-push hooks and demonstra
 
 - pre-commit writes "pre-commit" to the console.
 - pre-push doesn't write anything to the console.
+
+---
+
+Test text
