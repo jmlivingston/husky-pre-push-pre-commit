@@ -2,6 +2,7 @@
   "name": "husky-pre-push-pre-commit",
   "version": "1.0.0",
   "scripts": {
+    "lint": "eslint",
     "prepare": "husky install",
     "pretty-quick": "pretty-quick --staged"
   },
@@ -18,7 +19,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint"
+    "*.js": "git diff HEAD --quiet && npm run lint"
   },
   "prettier": {}
 }
