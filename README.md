@@ -1,4 +1,4 @@
-# Test husky pre-commit and pre-push
+# Demo of pre-push not working
 
 This is a very simple test for husky pre-commit and pre-push hooks and demonstrate that pre-push does not work.
 
